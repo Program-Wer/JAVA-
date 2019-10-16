@@ -63,3 +63,6 @@ exchange(xiaoming,xiaohong);
 * 一个方法不能修改基本数据类型的参数
 * 一个方法可以改变一个对象参数的状态
 * 一个方法不能使一个对象参数引用一个新的对象
+***  
+**C++注释：** C++有值调用和引用调用。引用参数标有&符号。例如修改方法二public static void exchange(Student& student1,Student& student2)可以轻松实现它们引用参数的目的。
+
